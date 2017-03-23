@@ -1,0 +1,109 @@
+什么是npm ?
+
+npm 是 nodejs 的包管理和分发工具。它 可以让 javascript 开发者能够更加轻松的共享代码和共用代码片段，并且通过 npm 管理你分享的代码也很方便快捷和简单。
+
+
+
+我们可以使用以下命令来卸载 Node.js 模块。
+
+卸载模块
+
+$ npm uninstall express
+
+卸载后查看包是否还存在：
+
+$ npm ls
+
+更新模块
+
+$ npm update express
+
+搜索模块：
+
+$ npm search express
+
+创建模块，package.json 文件是必不可少的
+
+$ npm init
+
+发布模块：
+
+$ npm publish
+
+
+使用淘宝 NPM 镜像
+使用淘宝定制的 cnpm (gzip 压缩支持) 命令行工具代替默认的 npm:
+
+$ npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+
+cnpm 命令来安装模块了：
+
+$ cnpm install [name]
+
+
+更多信息: http://npm.taobao.org/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
